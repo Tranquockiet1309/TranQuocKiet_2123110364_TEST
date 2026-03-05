@@ -22,6 +22,7 @@ namespace Demo01.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             //test ne hehehe
+            //hehe cai nay la de pull ve neeeee
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
