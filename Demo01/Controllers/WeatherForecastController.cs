@@ -23,6 +23,7 @@ namespace Demo01.Controllers
         {
             //test ne hehehe
             //anh cuong ngu gat
+            //Kiet top 1 Binh Dinh
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
